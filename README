@@ -1,0 +1,20 @@
+TouchMIDI
+
+There are a few dependencies:
+g++
+qt4-make
+xserver-xorg-input-synaptics-dev
+libxi-dev
+xserver-xorg-dev
+libasound2-dev
+
+To install open terminal and go to this directory. Then enter:
+
+qmake-qt4
+make
+
+then run the binary that appears here magically.
+Enjoy. You can leave comments on my blog. mountainbikesandtrombones.blogspot.com
+
+You should also enable SHMConfig if it is not already. There are instructions at:
+https://help.ubuntu.com/community/SynapticsTouchpad#Enabling_SHMConfig_in_order_to_get_synclient_debug_output
