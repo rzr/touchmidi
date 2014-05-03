@@ -1,0 +1,22 @@
+Source: touchmidi
+Section: unknown
+Priority: optional
+Maintainer: Philippe Coval <rzr@gna.org>
+Build-Depends: debhelper (>= 8.0.0),
+  qt4-qmake,
+  libqt4-dev-bin,
+  libqt4-dev,
+  xserver-xorg-input-synaptics-dev,
+  libxi-dev,
+  xserver-xorg-dev,
+  libasound2-dev
+Standards-Version: 3.9.4
+Homepage: http://sourceforge.net/projects/touchmidi
+#Vcs-Git: git://git.debian.org/collab-maint/touchmidi.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/touchmidi.git;a=summary
+
+Package: touchmidi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

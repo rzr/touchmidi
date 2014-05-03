@@ -1,0 +1,5 @@
+touchmidi (0.1.2-0) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Philippe Coval <rzr@gna.org>  Sat, 03 May 2014 14:46:19 +0200
